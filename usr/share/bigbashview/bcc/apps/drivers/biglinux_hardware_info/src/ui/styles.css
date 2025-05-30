@@ -1,0 +1,44 @@
+/* Hardware Info Page Styles */
+.hardware-info-page {
+    background-color: @view_bg_color;
+}
+
+.property-row {
+    margin-left: 12px;
+    font-size: 0.9em;
+}
+
+.property-row .title {
+    font-weight: normal;
+    color: @dim_label_color;
+}
+
+.summary-card {
+    background-color: @card_bg_color;
+    border-radius: 8px;
+    margin: 6px;
+    padding: 12px;
+}
+
+.category-header {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.loading-container {
+    min-height: 200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .property-row {
+        margin-left: 6px;
+    }
+    
+    .summary-card {
+        margin: 3px;
+        padding: 8px;
+    }
+}
